@@ -3,12 +3,13 @@
 ## Homework Assignments
 
 ### Setup AWS Budget
+Newly created accound did not have access to billing data. So created IAM policies that grant permissions to billing data using [these instructions](https://docs.aws.amazon.com/IAM/latest/UserGuide/tutorial_billing.html?icmpid=docs_iam_console#tutorial-billing-step2)
 
-![Setup Budget](./assets/week0-aws-budget.png)
+![Setup Budget](./assets/week0-set-aws-budget.png)
 
 ### Setup Billing Alerts
 
-![Billing Alert](./assets/week0-cloudwatch-alarms.png)
+![Billing Alert](./assets/week0-cloudwatch-billing-alarms.png)
 
 ### Logical Architecture Diagram
 ![Logical Architecture Diagram](./assets/week0-Cruddur-Logical-Diagram.png)
