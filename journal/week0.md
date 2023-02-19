@@ -23,7 +23,7 @@ Newly created accound did not have access to billing data. So created IAM polici
 
 1. In a Napkin
 
-
+![Logical Architecture Diagram](./assets/week0-Cruddur-Conceptual-diagram-Napkin.jpg)
 
 2. During session
 
