@@ -1,2 +1,4 @@
 Tracing for Honeycomb
 For those getting that 401 error, here's why. you'll find it in your logs: WARN[0000] The "HONEYCOMB_API_KEY" variable is not set. Defaulting to a blank string.
+
+Need to work on Cognito
