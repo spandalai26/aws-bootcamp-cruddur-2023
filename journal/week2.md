@@ -5,12 +5,12 @@
 ### Video Review
 * Watched the following videos and tutorials
   * [FREE AWS Cloud Project Bootcamp - Update 2023-02-23 Video](https://youtu.be/gQxzMvk6BzM).
-  * [Week 2 - Live Streamed Video – Honeycomb.io Setup](https://www.youtube.com/live/2GD9xCzRId4?feature=share).
-  * [Week 2 - Instrument X-Ray Video](https://youtu.be/n2DTsuBrD_A).
-  * [Week 2 – X-Ray Subsegments Solved Video](https://youtu.be/4SGTW0Db5y0)
-  * [Week 2 - CloudWatch Logs Video](https://youtu.be/ipdFizZjOF4).
-  * [Week 2 - Rollbar Video](https://youtu.be/xMBDAb5SEU4).
-  * [Week 2 – Github Codespaces Crash Course Video](https://youtu.be/L9KKBXgKopA).
+  * [Live Stream](https://www.youtube.com/live/2GD9xCzRId4?feature=share).
+  * [Instrument X-Ray Video](https://youtu.be/n2DTsuBrD_A).
+  * [X-Ray Subsegments Solved Video](https://youtu.be/4SGTW0Db5y0)
+  * [CloudWatch Logs Video](https://youtu.be/ipdFizZjOF4).
+  * [Rollbar Video](https://youtu.be/xMBDAb5SEU4).
+  * [Github Codespaces Crash Course Video](https://youtu.be/L9KKBXgKopA).
   * [Cost Aspects for Observability](https://www.youtube.com/watch?v=2W3KeqCjtDY) by Chirag.
   * [Security Considerations for Observability](https://youtu.be/bOf4ITxAcXc) by Aashish.
 
