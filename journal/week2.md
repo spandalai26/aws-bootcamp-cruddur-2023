@@ -11,6 +11,8 @@
   * [Week 2 - CloudWatch Logs Video](https://youtu.be/ipdFizZjOF4).
   * [Week 2 - Rollbar Video](https://youtu.be/xMBDAb5SEU4).
   * [Week 2 – Github Codespaces Crash Course Video](https://youtu.be/L9KKBXgKopA).
+  * [Cost Aspects for Observability](https://www.youtube.com/watch?v=2W3KeqCjtDY) by Chirag.
+  * [Security Considerations for Observability](https://youtu.be/bOf4ITxAcXc) by Aashish.
 
 ### Actions
 
@@ -37,9 +39,7 @@
 * Instumented to get the test "Hello World" warnings in Rollbar UI. [TO DO: GET SCREENSHOT]
 
 ## Spending Considerations
-* Viewed [Spend Considerations Video](https://www.youtube.com/watch?v=2W3KeqCjtDY) by Chirag.
-* Completed Spend Quiz.
+* Viewed the video and completed the quiz.
 
 ## Security Considerations
-* Viewed [Security Considerations Video](https://youtu.be/bOf4ITxAcXc) by Aashish.
-* Completed Security Quiz.
+* Viewed the video and completed the quiz.
