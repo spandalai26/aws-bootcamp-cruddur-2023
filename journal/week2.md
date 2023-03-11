@@ -24,6 +24,7 @@
 * Finished all steps to implement AWS X-Ray tracing
   * Reference [Github - AWS X-Ray SDK Python](https://github.com/aws/aws-xray-sdk-python)
 * Confirm X-Ray Traces are availabe for review in AWS console. [TO DO: GET SCREENSHOT]
+* Need to work on building out logging of Sub Segment using X-Ray. [TO DO]
 
 #### AWS CloudWatch
 
