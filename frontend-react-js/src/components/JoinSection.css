@@ -1,7 +1,7 @@
 .join {
   display: flex;
   flex-direction: column;
-  background: #000;
+  background: var(--fg);
   border-radius: 8px;
   margin-top: 24px;
 }
@@ -40,11 +40,17 @@
 }
 
 .join-content a.subaction {
-  color: rgba(149,0,255,1);
+  display: block;
+  color: rgba(255,255,255,1);
+  background: rgba(149,0,255,1);
+  border: none;
   text-align: center;
   text-decoration: none;
-  display: block;
-  padding: 12px 0px;
-  margin-top: 12px;
-  font-size: 16px;
+  border-radius: 999px;
+  width: 100%;
+  font-weight: 600;
+  text-align: center;
+  padding: 16px 0px;
+  margin-top: 24px;
+  font-size: 20px;
 }

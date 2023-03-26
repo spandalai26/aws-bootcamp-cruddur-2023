@@ -20,6 +20,9 @@ export default function JoinSection(props) {
         <Link to="/signup" className="action">
           Join Now!
         </Link>
+        <p>
+          Already a member yet? Click below to signin.
+        </p>        
         <Link to="/signin" className="subaction">
           Sign In
         </Link>

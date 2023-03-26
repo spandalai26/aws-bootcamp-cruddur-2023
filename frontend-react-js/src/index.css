@@ -1,8 +1,18 @@
+:root {
+  --bg: rgb(225, 225, 225);
+  --fg: rgb(50, 50, 50);
+  --primaryactive: rgb(90, 30, 90);
+  --primary: rgb(50, 50, 50);
+  --hover: rgb(24, 44, 224);
+  --content: rgb(255, 255,255);
+  --search: rgb(255, 255, 255);
+}
+
 * { box-sizing: border-box; }
 html,body { 
   height: 100%; 
   width: 100%; 
-  background: rgb(14,3,28);
+  background: var(--bg);
 }
 
 body {
