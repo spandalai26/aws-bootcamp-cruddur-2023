@@ -4,3 +4,5 @@ For those getting that 401 error, here's why. you'll find it in your logs: WARN[
 Need to work on Cognito
 
 Add additional logging to login page
+
+RDS is done.
