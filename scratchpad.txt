@@ -6,3 +6,5 @@ Need to work on Cognito
 Add additional logging to login page
 
 RDS is done.
+
+There are still issues pending with creating new activities. Working on them 
