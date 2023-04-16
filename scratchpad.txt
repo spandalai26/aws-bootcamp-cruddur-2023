@@ -9,3 +9,5 @@ RDS is done.
 
 There are still issues pending with creating new activities. Working on them 
 Finally finised with Relational Databases. That was a long slog
+
+Chugging along
