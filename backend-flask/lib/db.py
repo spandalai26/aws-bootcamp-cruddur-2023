@@ -25,6 +25,7 @@ class Db:
 
   def init_pool(self):
     connection_url = os.getenv("CONNECTION_URL")
+    print("Connection URL received is: ", connection_url)
     self.pool = ConnectionPool(connection_url)
   # we want to commit data such as an insert
   # be sure to check for RETURNING in all uppercases
@@ -64,13 +65,12 @@ class Db:
   # when we want to return a a single value
   def query_value(self,sql,params={}):
     self.print_sql('value',sql,params)
-
     with self.pool.connection() as conn:
       with conn.cursor() as cur:
         cur.execute(sql,params)
         json = cur.fetchone()
         return json[0]
-  
+
   # when we want to return a json object
   def query_array_json(self,sql,params={}):
     self.print_sql('array',sql, params)
