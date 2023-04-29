@@ -93,6 +93,10 @@ cors = CORS(
 #LOGGER.addHandler(cw_handler)
 #LOGGER.info("TEST LOG")
 
+@app.route('/api/health-check')
+def health_check():
+  return {'success': True}, 200
+
 #Configure Logging for Rollbar
 rollbar_access_token = os.getenv('ROLLBAR_ACCESS_TOKEN')
 @app.before_first_request
