@@ -1,0 +1,11 @@
+#! /usr/bin/bash
+
+# set the ECR URL
+ECR_BACKEND_FLASK_URL="$AWS_ACCOUNT_ID.dkr.ecr.$AWS_DEFAULT_REGION.amazonaws.com/backend-flask"
+echo $ECR_BACKEND_FLASK_URL
+
+# tag the docker image as latest
+docker tag backend-flask-prod:latest $ECR_BACKEND_FLASK_URL:latest
+
+#push the latest image to ECR
+docker push $ECR_BACKEND_FLASK_URL:latest
