@@ -1,0 +1,11 @@
+#! /usr/bin/bash
+
+# set the ECR URL
+ECR_FRONTEND_REACT_URL="$AWS_ACCOUNT_ID.dkr.ecr.$AWS_DEFAULT_REGION.amazonaws.com/frontend-react-js"
+echo $ECR_FRONTEND_REACT_URL
+
+# tag the docker image as latest
+docker tag frontend-react-js:latest $ECR_FRONTEND_REACT_URL:latest
+
+#push the latest image to ECR
+docker push $ECR_FRONTEND_REACT_URL:latest
