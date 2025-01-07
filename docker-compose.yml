@@ -20,7 +20,7 @@ services:
       AWS_COGNITO_USER_POOL_CLIENT_ID: "708oe5vk38pdir9e7j1tqqnv94"  
     build: ./backend-flask
     ports:
-      - "4567:4567"
+      - "4567:4568"
     volumes:
       - ./backend-flask:/backend-flask
   frontend-react-js:
